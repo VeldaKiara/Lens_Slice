@@ -5,3 +5,5 @@ num_pizzas = len(toppings)
 print('We sell {} different kinds of pizza!'.format(num_pizzas))
 pizzas = list(zip(toppings,prices))
 print(pizzas)
+pizzas.sort()
+cheapest_pizza = pizzas[0]
