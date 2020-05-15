@@ -7,3 +7,4 @@ pizzas = list(zip(toppings,prices))
 print(pizzas)
 pizzas.sort()
 cheapest_pizza = pizzas[0]
+priciest_pizza = pizzas[-1]
